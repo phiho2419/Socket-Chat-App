@@ -1,16 +1,21 @@
 {
-  "name": "Socket_Chat_App",
+  "name": "ChatApp",
   "version": "1.0.0",
   "main": "index.js",
+  "repository": "https://github.com/NguyenLeHuyBao/Cybersoft_ChatApp.git",
+  "author": "BaoNguyen <nguyenlehb1808@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node app/src/server.js",
+    "dev": "nodemon app/src/server.js"
+  },
   "dependencies": {
     "bad-words": "^3.0.4",
     "date-format": "^3.0.0",
     "express": "^4.17.1",
     "socket.io": "^4.4.0"
   },
-  "scripts": {
-    "start": "node server",
-    "dev": "nodemon server"
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
