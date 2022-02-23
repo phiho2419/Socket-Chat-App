@@ -26,7 +26,7 @@ io.on("connection", (socket) => {
     const newUser = { id: socket.id, username, room };
     addUser(newUser);
 
-    //su ly cau chao
+    //xu ly cau chao
     //1: user vua ket noi vao: chao mung den voi cybersoft
     //2: cac user da ket noi truoc do: co 1 user moi vua ket noi
     // broadcast se giup gui thong bao cho tat ca user cu tru thang moi vao

@@ -4,7 +4,10 @@
   box-sizing: border-box;
 }
 .app {
-  background-color: #505170;
+  background-image: url('../img/bg_room.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
 }
 .title-app {
   height: 10vh;
@@ -20,8 +23,7 @@
   align-items: center;
 }
 
-.chat-app__wrapper {
-}
+
 
 .chat-app__left {
   display: flex;
@@ -42,14 +44,6 @@
 .chat-app__title {
   text-align: center;
   color: #e53434;
-}
-
-.chat-app__title--line {
-  width: 40%;
-  margin: 20px auto;
-  background-color: #e53434;
-  height: 3px;
-  border-radius: 50%;
 }
 .chat-app__btn-join {
   padding: 5px 10px;
